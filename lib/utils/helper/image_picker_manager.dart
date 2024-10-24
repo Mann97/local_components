@@ -236,7 +236,11 @@ class ImagePickerManager {
                     openAppSettings();
                   },
                   cameraStorageAnim: cameraStorageAnim,
+
+                  /// "Permission Required for Camera and Storage"
                   requestCameraAndStoragePermissionMsg: requestCameraAndStoragePermissionMsg,
+
+                  /// "Grant the app access to your camera and storage for enhanced features."
                   requestPermission: requestPermission,
                 ),
                 () => null);
